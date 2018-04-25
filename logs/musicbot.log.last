@@ -1,0 +1,58 @@
+[212.026596069] 2018-04-22 19:07:36,933 - INFO - launcher: Starting sanity checks
+[213.027715683] 2018-04-22 19:07:36,934 - INFO - launcher: Checking for Python 3.5+
+[213.526248932] 2018-04-22 19:07:36,935 - INFO - launcher: Checking console encoding
+[213.526248932] 2018-04-22 19:07:36,935 - INFO - launcher: Setting console encoding to UTF-8
+[214.026927948] 2018-04-22 19:07:36,935 - INFO - launcher: Ensuring we're in the right environment
+[218.527555466] 2018-04-22 19:07:36,940 - INFO - launcher: Adding local bins/ folder to path
+[221.528530121] 2018-04-22 19:07:36,943 - INFO - launcher: Required checks passed.
+[222.528219223] 2018-04-22 19:07:36,944 - INFO - launcher: Optional checks passed.
+[223.529100418] 2018-04-22 19:07:36,945 - INFO - launcher: Moving old musicbot log
+
+######################### PRE-RUN SANITY CHECKS PASSED #########################
+
+[8.5117523670196533] 2018-04-22 19:07:45,233 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 213 in _setup_logging: Set logging level to INFO
+[8.5122528076171875] 2018-04-22 19:07:45,233 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 80 in __init__: =========== MusicBot (version 1.9.6_2) ===========
+[8.5132529735565186] 2018-04-22 19:07:45,234 - WARNING - musicbot.bot | In bot.py::MainThread(73816), line 83 in __init__: Autoplaylist is empty, disabling.
+[8.518253803] launcher-INFO: Connecting
+[11.0204699039459229] 2018-04-22 19:07:47,742 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 1011 in on_ready: Connection established, ready to go.
+[11.0204699039459229] 2018-04-22 19:07:47,742 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 324 in _cache_app_info: Caching app info
+[11.0799582004547119] 2018-04-22 19:07:47,801 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 828 in _scheck_ensure_env: Ensuring data folders exist
+[11.0824577808380127] 2018-04-22 19:07:47,804 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 844 in _scheck_server_permissions: Checking server permissions
+[11.0829594135284424] 2018-04-22 19:07:47,804 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 848 in _scheck_autoplaylist: Auditing autoplaylist
+[11.0829594135284424] 2018-04-22 19:07:47,804 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 852 in _scheck_configs: Validating config
+[11.0829594135284424] 2018-04-22 19:07:47,804 - DEBUG - musicbot.config | In config.py::MainThread(73816), line 155 in async_validate: Validating options...
+[11.0829594135284424] 2018-04-22 19:07:47,804 - DEBUG - musicbot.bot | In bot.py::MainThread(73816), line 855 in _scheck_configs: Validating permissions config
+[11.0829594135284424] 2018-04-22 19:07:47,804 - DEBUG - musicbot.permissions | In permissions.py::MainThread(73816), line 59 in async_validate: Validating permissions...
+[11.0834577083587646] 2018-04-22 19:07:47,805 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1022 in on_ready: Connected to Discord!
+[11.0839583873748779] 2018-04-22 19:07:47,805 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1032 in on_ready: Bot:   437342055157596161/GU Bot#8435 [BOT]
+[11.0849587917327881] 2018-04-22 19:07:47,806 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1040 in on_ready: Owner: 137621908798701568/Naryxian#0001
+
+[11.0874583721160889] 2018-04-22 19:07:47,809 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1043 in on_ready: Server List:
+[11.0884582996368408] 2018-04-22 19:07:47,810 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1044 in <listcomp>:  - Super Duper Awesome Sword Friends of the Order of the Swords
+[11.0889596939086914] 2018-04-22 19:07:47,810 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1044 in <listcomp>:  - Testing
+[11.1019611358642578] 2018-04-22 19:07:47,823 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1088 in on_ready: Not bound to any text channels
+[11.1029603481292725] 2018-04-22 19:07:47,824 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1114 in on_ready: Not autojoining any voice channels
+[11.1034612655639648] 2018-04-22 19:07:47,825 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1118 in on_ready: Options:
+[11.1039609909057617] 2018-04-22 19:07:47,825 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1120 in on_ready:   Command prefix: ~
+[11.1044607162475586] 2018-04-22 19:07:47,826 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1121 in on_ready:   Default volume: 25%
+[11.1054604053497314] 2018-04-22 19:07:47,827 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1123 in on_ready:   Skip threshold: 4 votes or 30%
+[11.1059610843658447] 2018-04-22 19:07:47,827 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1124 in on_ready:   Now Playing @mentions: Disabled
+[11.1064629554748535] 2018-04-22 19:07:47,828 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1125 in on_ready:   Auto-Summon: Disabled
+[11.1069622039794922] 2018-04-22 19:07:47,828 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1126 in on_ready:   Auto-Playlist: Disabled
+[11.1074604988098145] 2018-04-22 19:07:47,829 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1127 in on_ready:   Auto-Pause: Enabled
+[11.1079616546630859] 2018-04-22 19:07:47,829 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1128 in on_ready:   Delete Messages: Disabled
+[11.1089613437652588] 2018-04-22 19:07:47,830 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1131 in on_ready:   Debug Mode: Disabled
+[11.1089613437652588] 2018-04-22 19:07:47,830 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1132 in on_ready:   Downloaded songs will be deleted
+[11.1099612712860107] 2018-04-22 19:07:47,831 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 1134 in on_ready:   Status message: ~help is a thing now!
+[46.1768395900726318] 2018-04-22 19:08:22,898 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 2393 in on_message: 137621908798701568/Naryxian#0001: ~setavatar
+[47.3894927501678467] 2018-04-22 19:08:24,111 - ERROR - musicbot.bot | In bot.py::MainThread(73816), line 2513 in on_message: Error in setavatar: CommandError: You must provide a URL or attach a file.
+Traceback (most recent call last):
+  File "C:\Users\Alec\Desktop\GU Bot\musicbot\bot.py", line 2500, in on_message
+    response = await handler(**handler_kwargs)
+  File "C:\Users\Alec\Desktop\GU Bot\musicbot\bot.py", line 124, in wrapper
+    return await func(self, *args, **kwargs)
+  File "C:\Users\Alec\Desktop\GU Bot\musicbot\bot.py", line 2278, in cmd_setavatar
+    raise exceptions.CommandError("You must provide a URL or attach a file.", expire_in=20)
+musicbot.exceptions.CommandError: You must provide a URL or attach a file.
+[124.2738361358642578] 2018-04-22 19:09:40,995 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 2393 in on_message: 137621908798701568/Naryxian#0001: ~setavatar
+[262.3359653949737549] 2018-04-22 19:11:59,057 - INFO - musicbot.bot | In bot.py::MainThread(73816), line 2393 in on_message: 137621908798701568/Naryxian#0001: ~restart
